@@ -50,8 +50,8 @@ public class Program {
 		}
 		else {
 			System.out.print("Enter the percentage: ");
-			double percent = sc.nextDouble();
-			list.get(pos).increaseSalary(percent);
+			double percentage = sc.nextDouble();
+			list.get(pos).increaseSalary(percentage);
 		}
 		
 		System.out.println();

@@ -47,10 +47,11 @@ public class Program {
 
 		if (employee == null) {
 			System.out.println("This id does not exist!");
-		} else {
+		} 
+		else {
 			System.out.print("Enter the percentage: ");
-			double percent = sc.nextDouble();
-			employee.increaseSalary(percent);
+			double percentage = sc.nextDouble();
+			employee.increaseSalary(percentage);
 		}
 
 		System.out.println();
